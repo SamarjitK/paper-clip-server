@@ -1,5 +1,5 @@
 from flask import Flask, g, Blueprint
-from db.db_config import *
+from db_config import *
 # app reference
 # This method executes before any API request
 # @app.before_request

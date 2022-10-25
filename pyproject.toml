@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "paper-clip-server"
+version = "0.1.0"
+description = "Flask server for paper-clip-app"
+authors = ["Samarjit Kaushik <samarjitk@outlook.com>"]
+readme = "README.md"
+packages = [{include = "paper_clip_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.2"
+Flask-PyMongo = "^2.3.0"
+Flask-Cors = "^3.0.10"
+pymongo = "^4.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

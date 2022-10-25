@@ -1,7 +1,7 @@
 # paper-clip-server
 Flask app for paper-clip-app. Uses poetry as a dependency manager, to run:
 
-1. Install Poetry
+1. Install Poetry (may have to add to path: `export PATH="/Users/stlp/.local/bin:$PATH"`)
 2. Run 'poetry install'
 3. Run 'poetry run python ./server_config.py'
 
